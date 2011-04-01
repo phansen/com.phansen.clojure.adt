@@ -21,7 +21,7 @@
 		</developer>
 	</developers>
 	<scm>
-		<url></url>
+		<url>https://github.com/phansen/com.phansen.clojure.adt</url>
 		<connection>git@github.com:phansen/com.phansen.clojure.adt.git</connection>
 	</scm>
 	<dependencies>

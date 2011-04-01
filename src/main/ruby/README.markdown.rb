@@ -43,7 +43,19 @@ from `Tree` use the `un-extend-adt` macro
 
 ## Installation
 
-TODO: upload artifact to either Clojars or central maven repository.
+You can get `clojure.adt-1.0.0.jar` from the [Clojars repository](http://clojars.org/com.phansen/clojure.adt).
+Using maven use the following elements
+
+	<repository>
+  	  <id>clojars.org</id>
+  	  <url>http://clojars.org/repo</url>
+	</repository>
+
+	<dependency>
+      <groupId>com.phansen</groupId>
+  	  <artifactId>clojure.adt</artifactId>
+  	  <version>1.0.0</version>
+	</dependency>
 
 ## Thanks
 
