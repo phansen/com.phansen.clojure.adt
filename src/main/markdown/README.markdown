@@ -1,13 +1,13 @@
-# `clojure.adt`
+# `com.phansen.clojure.adt`
 
 A dynamic algebraic data type implementation for Clojure.  This library is based on Clojure's hierarchy.  
 The ADT hierarchy is accessed through the variable `adt-hierarchy`
 
 ## Usage
 
-The main namespace for pattern matching is `clojure.adt.core`. 
+The main namespace for pattern matching is `com.phansen.clojure.adt.core`. 
 
-    => (use 'clojure.adt.core)
+    => (use 'com.phansen.clojure.adt.core)
 
 ## Defining types
 
@@ -39,21 +39,11 @@ from `Tree` use the `un-extend-adt` macro
 
 ## Installation
 
-Currently the `clj.pattern.match.jar` is located in the bin folder.  If someone would like
-to make `clj.pattern.match` available as a Maven artifact via [Clojars](http://clojars.org/) I
-would gladly accept that work. Just let me know when it is up and I'll update the docs.
 
-## Development
-
-Running the tests:
-
-    $ lein deps
-    $ lein test
 
 ## Thanks
 
-This project was inspired by Haskell and OCaml and the various other Clojure
-pattern matching libraries.  
+This project was inspired by Haskell, OCaml, etc... algebraic data types
 
 ## License
 
