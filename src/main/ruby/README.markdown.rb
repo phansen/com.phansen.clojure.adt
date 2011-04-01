@@ -39,7 +39,7 @@ extend and un-extend types.  You can extend a type by using the `extend-adt` mac
 This will extend ADT `Tree` to now include `Leaf` as a type of `Tree`.  To remove `Leaf`
 from `Tree` use the `un-extend-adt` macro
 
-    => (un-extend-adt Tree Leaf value)
+    => (un-extend-adt Tree Leaf)
 
 ## Installation
 
